@@ -1,0 +1,105 @@
+{
+  "target": 1,
+  "source": 0,
+  "k": 50,
+  "note": "高置信度选择；源类 airplane，目标类 automobile；ASR 在除目标类外 9000 个测试样本上统计；32/34、38/40、44/46 因 floor(32p) 列数相同而共享模型",
+  "settings": [
+    {
+      "ratio": 0.32,
+      "model_ratio": 0.32,
+      "n_cols_a": 10,
+      "clean_acc": 0.8907999992370605,
+      "asr": 0.030444445088505745,
+      "mean_target_conf": 0.03692033141851425,
+      "epoch": 56,
+      "checkpoint": "D:\\LessonProject\\code\\runs\\cifar10_ratio_32\\best.pth"
+    },
+    {
+      "ratio": 0.34,
+      "model_ratio": 0.32,
+      "n_cols_a": 10,
+      "clean_acc": 0.8907999992370605,
+      "asr": 0.030444445088505745,
+      "mean_target_conf": 0.03692033141851425,
+      "epoch": 56,
+      "checkpoint": "D:\\LessonProject\\code\\runs\\cifar10_ratio_32\\best.pth"
+    },
+    {
+      "ratio": 0.36,
+      "model_ratio": 0.36,
+      "n_cols_a": 11,
+      "clean_acc": 0.8920000195503235,
+      "asr": 0.05711111053824425,
+      "mean_target_conf": 0.06231854110956192,
+      "epoch": 55,
+      "checkpoint": "D:\\LessonProject\\code\\runs\\cifar10_ratio_36\\best.pth"
+    },
+    {
+      "ratio": 0.38,
+      "model_ratio": 0.38,
+      "n_cols_a": 12,
+      "clean_acc": 0.8862000107765198,
+      "asr": 0.3083333373069763,
+      "mean_target_conf": 0.2931579351425171,
+      "epoch": 59,
+      "checkpoint": "D:\\LessonProject\\code\\runs\\cifar10_ratio_38\\best.pth"
+    },
+    {
+      "ratio": 0.4,
+      "model_ratio": 0.38,
+      "n_cols_a": 12,
+      "clean_acc": 0.8862000107765198,
+      "asr": 0.3083333373069763,
+      "mean_target_conf": 0.2931579351425171,
+      "epoch": 59,
+      "checkpoint": "D:\\LessonProject\\code\\runs\\cifar10_ratio_38\\best.pth"
+    },
+    {
+      "ratio": 0.42,
+      "model_ratio": 0.42,
+      "n_cols_a": 13,
+      "clean_acc": 0.8932999968528748,
+      "asr": 0.49077779054641724,
+      "mean_target_conf": 0.45839107036590576,
+      "epoch": 54,
+      "checkpoint": "D:\\LessonProject\\code\\runs\\cifar10_ratio_42\\best.pth"
+    },
+    {
+      "ratio": 0.44,
+      "model_ratio": 0.44,
+      "n_cols_a": 14,
+      "clean_acc": 0.886900007724762,
+      "asr": 0.765999972820282,
+      "mean_target_conf": 0.7245991826057434,
+      "epoch": 59,
+      "checkpoint": "D:\\LessonProject\\code\\runs\\cifar10_ratio_44\\best.pth"
+    },
+    {
+      "ratio": 0.46,
+      "model_ratio": 0.44,
+      "n_cols_a": 14,
+      "clean_acc": 0.886900007724762,
+      "asr": 0.765999972820282,
+      "mean_target_conf": 0.7245991826057434,
+      "epoch": 59,
+      "checkpoint": "D:\\LessonProject\\code\\runs\\cifar10_ratio_44\\best.pth"
+    },
+    {
+      "ratio": 0.48,
+      "model_ratio": 0.48,
+      "n_cols_a": 15,
+      "clean_acc": 0.8884999752044678,
+      "asr": 0.9157778024673462,
+      "mean_target_conf": 0.8807777166366577,
+      "epoch": 60,
+      "checkpoint": "D:\\LessonProject\\code\\runs\\cifar10_ratio_48\\best.pth"
+    }
+  ],
+  "baseline_50": {
+    "ratio": 0.5,
+    "n_cols_a": 16,
+    "clean_acc": 0.8909000158309937,
+    "asr": 0.9878888726234436,
+    "mean_target_conf": 0.9776546359062195
+  }
+}

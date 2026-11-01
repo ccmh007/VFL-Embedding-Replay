@@ -1,0 +1,14 @@
+# 忽略数据集和
+code/data/
+__pycache__/
+*.pyc
+
+# 忽略实验中间产物
+_work/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Office 临时文件
+~$*.docx
