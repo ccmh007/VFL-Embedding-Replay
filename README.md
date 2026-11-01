@@ -68,5 +68,4 @@ python predict.py --checkpoint runs/cifar10/best.pth --data-dir data
 
 ## 文档
 
-三份文档中的姓名、学号、指导教师和成员分工仍为空白，请按实际情况填写后再打印。
 详细提交清单见 [docs/提交说明.md](docs/提交说明.md)。
